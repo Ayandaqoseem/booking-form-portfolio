@@ -1,0 +1,133 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+} */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./images/hero.jpg);
+    margin: 0;
+    padding: 0;
+    background: rgb(144, 144, 214);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+
+/* style the container */
+.container{
+    width: 70%;
+    padding: 15px;
+    margin: 20px auto;
+}
+
+
+.text{
+    float: left;
+    width: 50%;
+    margin-top: 80px;
+}
+.textContainer {
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+    margin-right: 25px;
+    margin:1% auto;
+    background-color: rgb(185, 158, 158);
+    border-radius: 25px; 
+    box-shadow: 0 0 17px #333; 
+  }
+
+  .header {
+      /* float: left;
+      width: 50%; */
+      text-align: center;
+      padding-top: 75px;
+  }
+
+  .header h2{
+      color: #333;
+      font-size: 30px;
+      margin-bottom: 8px;
+  }
+
+  .header .subText{
+      font-size: 12px;
+      text-align: center;
+  }
+  
+  .main {
+      text-align: center;
+  }
+  .main input{
+      border-radius: 10px;
+  }
+
+  .main input, button {
+      width: 80%;
+      height: 40px;
+      border: none;
+      outline: none;
+      box-sizing: border-box;
+      font-size: 15px;
+      color: #333;
+      margin-bottom: 40px;
+      padding-left: 40px;
+      border-radius: 10px;
+  }
+  
+  .main button {
+      padding-left: 0;
+      background-color: #83acf1;
+      letter-spacing: 1px;
+      font-weight: bold;
+      margin-bottom:70px ;
+  }
+
+  .main button:hover{
+      box-shadow: 2px 2px 5px #555;
+      background-color: #7799d4;
+  }
+
+  input:hover {
+    box-shadow: 2px 2px 5px #555;
+    background-color: #ddd;
+}
+
+  .main span {
+     position: relative; 
+  }
+
+
+  .read {
+      margin-right: 100px;
+  }
+
+  @media (max-width:975px) {
+    .text{
+        /* float: left; */
+        width: 100%;
+      
+    }
+    .textContainer {
+        /* float: left; */
+        width: 100%;
+              }
+  }
+  /* /* @media screen and (max-width:600px) {
+    .container, .textContainer{
+        width: 80%;
+        
+    }
+} */
+
+@media screen and (max-width:701px) {
+    .container, .textContainer{
+        width: 80%;
+        
+    }
+} 
